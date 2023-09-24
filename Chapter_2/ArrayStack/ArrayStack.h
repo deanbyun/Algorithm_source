@@ -8,13 +8,13 @@ typedef int ElementType;
 
 typedef struct tagNode
 {
-    ElementType Data;
+    ElementType Data;       /* int Data*/
 } Node;
 
 typedef struct tagArrayStack
 {
-    int   Capacity;
-    int   Top;
+    int   Capacity;     /* 스택 담을 수 있는 데이터 총 용량*/
+    int   Top;          /* 가장 위의 데이터*/
     Node* Nodes;
 } ArrayStack;
 
