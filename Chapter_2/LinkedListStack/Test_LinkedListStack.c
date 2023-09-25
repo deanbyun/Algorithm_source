@@ -26,13 +26,13 @@ int main( void )
 
         Popped = LLS_Pop( Stack );
 
-        printf( "Popped: %s, ", Popped->Data );
+        printf( "Popped: %s, ", Popped->Data );     /*i=0, Popped : hij*/
 
         LLS_DestroyNode(Popped);
 
         if ( ! LLS_IsEmpty(Stack) ) 
         {
-            printf( "Current Top: %s\n", LLS_Top(Stack)->Data );
+            printf( "Current Top: %s\n", LLS_Top(Stack)->Data );        /*i=0, Current Top: efg*/
         }
         else
         {

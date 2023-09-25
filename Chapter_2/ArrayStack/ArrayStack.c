@@ -26,7 +26,7 @@ void AS_Push(ArrayStack* Stack, ElementType Data)       /*새로운 데이터 추가*/
 {
     int Position = Stack->Top;      /*스택의 top 의 위치를 저장*/
 
-    Stack->Nodes[Position].Data = Data;     /*새로운 데이터를 해당 스택 위치에 할당*/   /*배열 ??*/
+    Stack->Nodes[Position].Data = Data;     /*새로운 데이터를 해당 스택 위치에 할당*/
     Stack->Top++;                           /*스택의 top 위치 증가*/
 }
 
