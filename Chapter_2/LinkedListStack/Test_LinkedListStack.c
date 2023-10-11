@@ -16,7 +16,7 @@ int main( void )
     LLS_Push( Stack, LLS_CreateNode("hij") );
 
     Count = LLS_GetSize(Stack);
-    printf( "Size: %d, Top: %s\n\n", 
+    printf( "Size: %d, Top: %s\n\n",        /*Size: 4, Top: hig*/
         Count, LLS_Top(Stack)->Data );
 
     for ( i=0; i<Count; i++ )
@@ -44,3 +44,12 @@ int main( void )
 
     return 0;
 }
+
+/*
+Size: 4, Top: hij
+
+Popped: hij, Current Top: efg
+Popped: efg, Current Top: def
+Popped: def, Current Top: abc
+Popped: abc, Stack Is Empty.
+*/
