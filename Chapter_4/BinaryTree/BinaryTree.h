@@ -12,7 +12,7 @@ typedef struct tagSBTNode
     struct tagSBTNode* Right;
 
     ElementType Data;
-} SBTNode;
+} SBTNode;      /* Simple Binary Tree */
 
 SBTNode*  SBT_CreateNode( ElementType NewData );
 void      SBT_DestroyNode( SBTNode* Node );

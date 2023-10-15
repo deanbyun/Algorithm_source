@@ -38,3 +38,14 @@ int main( void )
 
     return 0;
 }
+
+/*
+Preorder ...
+ A B C D E F G
+
+Inorder ...
+ C B D A F E G
+
+Postorder ...
+ C D B F G E A
+*/
