@@ -54,9 +54,9 @@ void LCRS_PrintTree( LCRSNode* Node, int Depth )
     printf("%c\n", Node->Data);
 
     if ( Node->LeftChild != NULL )
-        LCRS_PrintTree(Node->LeftChild, Depth+1);       /* 營敝л熱 */
+        LCRS_PrintTree(Node->LeftChild, Depth+1);       /* 營敝л熱煎 給嬴馬 */
 
-    if ( Node->RightSibling != NULL )                   /* 營敝л熱 */
+    if ( Node->RightSibling != NULL )                   /* 營敝л熱煎 給嬴馬 */
         LCRS_PrintTree(Node->RightSibling, Depth);
 }
 
